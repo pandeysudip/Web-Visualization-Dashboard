@@ -1,0 +1,17 @@
+
+body {
+
+  margin: 0;
+  font-family: Arial;
+}
+
+/* for id # and for class.*/
+/* no need to nested inside but easier to read*/
+
+
+a {
+  color: blue;
+}
+
+
+
