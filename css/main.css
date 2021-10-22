@@ -14,4 +14,11 @@ a {
 }
 
 
-
+footer {
+  margin: 0em;
+  padding: 1.2em;
+  background: #0d0e0d;
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+}
