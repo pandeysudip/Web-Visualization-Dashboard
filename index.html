@@ -10,7 +10,7 @@
     </head>
     <body>
         <!--navbar-->
-        <nav class="navbar navbar-expand-lg bg-black navbar-dark fixed-top">
+        <nav class="navbar navbar-expand-lg bg-black navbar-dark  fixed-top">
             <div class="container">
                 <li role="presentation" class="active">
                     <a href="index.html" class="navbar-brand bg-success px-5">Latitude</a>
@@ -52,64 +52,85 @@
             </div>
         </nav>
         <!--Home-->
-        <section id="tal" class="bg-dark text-light p-5 text-center text-sm-start">
+        <section id="tal" class="bg-dark text-light py-5  text-center text-sm-start">
             <div class="container">
                 <div class="d-lg-flex">
                     <div class="container">
-                        <h1 class=" p-3 text-success text-center">Summary:Latitude vs. X</h1>
-                        <div class="d-lg-flex">
-                                <img class="img-fluid rounded-circle " src="images/tu.jpg" alt="tu picture" />
+                        <h1 class=" p-3 text-warning text-center">Summary:Latitude vs. X</h1>
+                        <div>
+                            <p class="text-primary">
+                                The purpose of the experiment was to analyze weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMapAPI to assemble a dataset on over 1000 cities.
+
+                            </p>
+                            <p class="text-success">
+                                After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs lattitude. Factors we looked at included: temperature, cloudness, wind speed, and humidity. This site provides the source data and visualization created as part of analysis, as well as explanations and descriptions of any trends and correlations witnessed.
+                            </p>
                             <div>
-                                <p>
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium ullam explicabo hic neque ex mollitia corrupti ipsam accusamus aut aliquam quia iste nobis amet consectetur, modi libero itaque quaerat tempore tempora blanditiis dolore veritatis vel recusandae ut? Eos nihil dolor odio fuga repellat libero ad possimus aperiam, reprehenderit, nam voluptatem.
-                                </p>
+                                <img class="img-fluid " src="images/pairplot.png" alt="tu picture" />
+                                <p>Pair plots</p>
                             </div>
+
                         </div>
                     </div>
                     <div class="container">
                         <h1 class=" p-3 text-info text-center">Visulization</h1>
-                        <div class="d-lg-flex">
+                        <div class="d-sm-flex">
                             <div class="column text-center">
                                 <div class="col-md">
                                     <div class="card-body text-center">
-                                    <div class="card-image">
-                                        <img class="img-fluid rounded-circle " src="images/siuc.png" alt="siuc picture" />
-                                    </div>
-                                    <h3 class="card-title mb-3">
-                                        Domain Wall Dynamics 
-                                    </h3>
+                                        <h6 class="card-title mb-3 text-danger">
+                                            City Lattitude vs. Max. Temperature 
+                                        </h6>
+                                        <div class="card-image">
+                                            <a href="temp.html">
+                                                <img class="img-fluid  " src="images/city_Max Temp.png" alt="siuc picture" />
+                                            </a>
+                                            
+                                        </div>
+
                                     </div>
                                 </div>
                                 <div class="col-md">
                                     <div class="card-body text-center">
-                                    <div class="card-image">
-                                        <img class="img-fluid rounded-circle " src="images/siuc.png" alt="siuc picture" />
-                                    </div>
-                                    <h3 class="card-title mb-3">
-                                        Spin Glass Systems
-                                    </h3>
+
+                                        <h6 class="card-title mb-3 text-danger">
+                                            City Lattitude vs. Humidity
+                                        </h6>
+                                        <div class="card-image">
+                                            <a href="humidity.html">
+                                                <img class="img-fluid  " src="images/city_Humidity.png" alt="siuc picture" />
+                                            </a>
+                                            
+                                        </div>
                                     </div>
                                 </div> 
                             </div>
                             <div class="column text-center">
                                 <div class="col-md">
                                     <div class="card-body text-center">
-                                    <div class="card-image">
-                                        <img class="img-fluid rounded-circle " src="images/siuc.png" alt="siuc picture" />
-                                    </div>
-                                    <h3 class="card-title mb-3">
-                                        Domain Wall Dynamics 
-                                    </h3>
+
+                                            <h6 class="card-title mb-3 text-danger">
+                                                City Lattitude vs. Cloudiness  
+                                            </h6>
+                                            <div class="card-image">
+                                                <a href="cloudness.html">
+                                                    <img class="img-fluid  " src="images/city_Cloudiness.png" alt="siuc picture" />
+                                                </a> 
+                                            </div>
                                     </div>
                                 </div>
                                 <div class="col-md">
-                                    <div class="card-body text-center">
+                                    <div class="card-body text-center ">
+
+                                    <h6 class="card-title mb-3 text-danger">
+                                        City Lattitude vs.  Wind Speed
+                                    </h6>
                                     <div class="card-image">
-                                        <img class="img-fluid rounded-circle " src="images/siuc.png" alt="siuc picture" />
+                                        <a href="windspeed.html">
+                                            <img class="img-fluid  " src="images/city_Wind speed.png" alt="siuc picture" />
+
+                                        </a>
                                     </div>
-                                    <h3 class="card-title mb-3">
-                                        Spin Glass Systems
-                                    </h3>
                                     </div>
                                 </div> 
                             </div>
