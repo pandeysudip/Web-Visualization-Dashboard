@@ -1,4 +1,4 @@
-# web-design-challenge Web Visualization Dashboard 
+# web-design-challenge: Web Visualization Dashboard 
 
 ## Background
 
