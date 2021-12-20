@@ -2,10 +2,12 @@
 
 ## Background
 
-Creating a dashboard using HTML and CSS.
+Creating a dashboard using HTML, CSS, and Bootstrap.
 
-![Images/landingResize.png](Images/landingResize.png)
+![Images/landingResize.png](images/landingResize.png)
 
+The website is deployed to GitHub pages at:  
+https://pandeysudip.github.io/web-design-challenge/ 
 
 ## Latitude - Latitude Analysis Dashboard with Attitude
 
@@ -36,8 +38,6 @@ The website also have a navigation menu that:
 * Provides two more text links on the right: "Comparisons," which links to the comparisons page, and "Data," which links to the data page.
 * Is responsive (using media queries). The nav  have similar behavior as the screenshots ["Navigation Menu" section](#navigation-menu).
 
-The website is deployed to GitHub pages .
-
 
 ### Screenshots
 
@@ -51,28 +51,24 @@ Large screen:
 
 Small screen:
 
-![Landing page small screen](Images/landing-sm.png)
+![Landing page small screen](images/landing-sm.png)
 
 #### <a id="comparisons-page"></a>Comparisons page
 
 Large screen:
 
-![comparison page large screen](Images/comparison-lg.png)
+![comparison page large screen](images/comparison-lg.png)
 
 Small screen:
 
-![comparison page small screen](Images/comparison-sm.png)
+![comparison page small screen](images/comparison-sm.png)
 
 #### <a id="data-page"></a>Data page
 
 Large screen:
 
-![data page large screen](Images/data-lg.png)
+![data page large screen](images/data-lg.png)
 
-
-Small screen:
-
-![data page small screen](Images/data-sm.png)
 
 #### <a id="visualization-pages"></a>Visualization pages
 
@@ -80,18 +76,18 @@ You'll build four of these, one for each visualization. Here's an example of one
 
 Large screen:
 
-![visualize page large screen](Images/visualize-lg.png)
+![visualize page large screen](images/visualize-lg.png)
 
 Small screen:
 
-![visualize page small screen](Images/visualize-sm.png)
+![visualize page small screen](images/visualize-sm.png)
 
 #### <a id="navigation-menu"></a>Navigation menu
 
 Large screen:
-![nav menu large screen](Images/nav-lg.png)
+![nav menu large screen](images/nav-lg.png)
 
 Small screen:
-![nav menu small screen](Images/nav-sm.png)
+![nav menu small screen](images/nav-sm.png)
 
 
