@@ -6,7 +6,7 @@ Creating a dashboard using HTML, CSS, and Bootstrap.
 
 ![Images/landingResize.png](images/landingResize.png)
 
-The website is deployed to GitHub pages at:  
+The website is deployed to GitHub at:  
 https://pandeysudip.github.io/web-design-challenge/ 
 
 ## Latitude - Latitude Analysis Dashboard with Attitude
@@ -47,7 +47,7 @@ This section contains screenshots of each page:
 
 Large screen:
 
-![Landing page large screen](Images/landingResize.png)
+![Landing page large screen](images/landingResize.png)
 
 Small screen:
 
